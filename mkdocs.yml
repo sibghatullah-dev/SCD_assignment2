@@ -1,0 +1,18 @@
+site_name: My Project Documentation
+site_description: Official documentation for my project
+site_url: https://<your-github-username>.github.io/<your-repo-name>/
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Setup Guide: setup.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - tables

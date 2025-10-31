@@ -88,3 +88,5 @@ dist/
 .DS_Store
 
 public/data
+
+.github/
